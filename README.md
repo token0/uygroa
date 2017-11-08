@@ -10,8 +10,8 @@ Requirements
 
 Installation
 --------------
-1. `wget https://raw.githubusercontent.com/Knapoc/uygroa/master/uygroa -O /opt/bin/uygroa --no-check-certificate`
-2. `wget https://raw.githubusercontent.com/Knapoc/uygroa/master/uygroa.cfg -O /opt/etc/uygroa.cfg --no-check-certificate`
+1. `wget https://raw.githubusercontent.com/token0/uygroa/master/uygroa -O /opt/bin/uygroa --no-check-certificate`
+2. `wget https://raw.githubusercontent.com/token0/uygroa/master/uygroa.cfg -O /opt/etc/uygroa.cfg --no-check-certificate`
 3. `chmod +x /opt/bin/uygroa`
 4. Run it periodically with cron... e.g: 0 0 * * * /opt/bin/uygroa
 
