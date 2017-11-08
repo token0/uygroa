@@ -2,8 +2,11 @@ github.com
 images.performgroup.com
 gravatar.com
 apple.com
-#Facebook mobile Whitelisting
+#Facebook Whitelisting
+www.facebook.com
+facebook.com
 m.facebook.com
+fb.com
 #Microsoft Whitelisting
 login.live.com
 #Kodi Whitelisting
@@ -11,6 +14,7 @@ msftncsi.com
 #Spotify Whitelisting
 spclient.wg.spotify.com
 #Google Server Whitelisting
+www.googleadservices.com
 storage.googleapis.com
 clients2.google.com
 clients3.google.com
