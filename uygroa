@@ -28,11 +28,11 @@ regexp_no='\b(([a-zA-Z0-9]+)(\-|\|_|\.)){1,8}[a-zA-Z]{2,4}((\.)[a-zA-Z]{2,4}){0,
 # END VARIABLES
 
 # SET APPCHECK
-if [ -z "$(which opkg)" ]; then logger -s -t uygroa "no package manager found"; exit 0; else
-if [ -z "$(opkg list-installed | grep wget)" ]; then opkg install wget; fi
-if [ -z "$(opkg list-installed | grep ca-certificates)" ]; then opkg install ca-certificates; fi
-if [ -z "$(opkg list-installed | grep grep)" ]; then opkg install grep; fi
-if [ -z "$(which stat)" ]; then opkg install coreutils-stat; fi
+#if [ -z "$(which opkg)" ]; then logger -s -t uygroa "no package manager found"; exit 0; else
+#if [ -z "$(opkg list-installed | grep wget)" ]; then opkg install wget; fi
+#if [ -z "$(opkg list-installed | grep ca-certificates)" ]; then opkg install ca-certificates; fi
+#if [ -z "$(opkg list-installed | grep grep)" ]; then opkg install grep; fi
+#if [ -z "$(which stat)" ]; then opkg install coreutils-stat; fi
 
 case $(grep -oE 'OpenWrt' /proc/version) in
   OpenWrt) ;;
